@@ -1,38 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family Fun Trip</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <!-- nav -->
-    <header>
-        <nav class="nav-list">
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#">Our Package</a></li>
-                <li><a href="#">Call Us</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <div class="logo">FamilyFunTrip</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#packages">Our Package</a></li>
+            <li><a href="#contact">Call Us</a></li>
+        </ul>
+    </nav>
+
     <!-- nav end -->
 
     <!-- Home -->
-    <main>
-        <section class="Home">
-            <h2>Jelajahi Dunia, Ciptakan Kenangan!!</h2>
-            <p>Temukan penglanman perjalanan terbaik dengan paket wisata
-                eksklusif kami. Liburan jadi lebih mudah, nyaman, dan tak terlupakan!
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Unforgettable Family Adventures Await!</h1>
+            <p>Discover the perfect family getaway with our carefully curated travel packages.
+                Stress-free, fun-filled, and designed for all ages!
             </p>
-        </section>
-    </main>
+        </div>
+    </section>
+    <!-- Home end -->
+
+    <!-- Our Packages -->
+    <div class="packages">
+        <h2>Our Packages</h2>
+
+        <div class="bali">
+            <img src="" alt="">
+            <h2>Bali Family Escape (5D4N)</h2>
+            <p>Experience the ultimate family vacation in Bali with beachside resorts and cultural adventures!</p>
+        </div>
+
+        <div class="disneyland">
+            <img src="" alt="">
+            <h2>Magical Disneyland Tour (4D3N)</h2>
+            <p>Bring your kids' dreams to life with a magical trip to Disneyland!</p>
+        </div>
+
+        <div class="japan">
+            <img src="" alt="">
+            <h2>Road Trip Across Japan (7D6N)</h2>
+            <p>Explore Japan’s beauty with your loved ones – from Tokyo’s city lights to Kyoto’s serene temples!</p>
+        </div>
+
+    </div>
+
+    <!-- Call Us -->
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="First and last name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" placeholder="example@email.com" required>
+
+            <label for="interest">Travel Destination</label>
+            <input type="text" id="destination" required>
+
+            <button type="submit">SEND</button>
+        </form>
+    </div>
 
 
-    
-    
+
 
 </body>
+
 </html>
