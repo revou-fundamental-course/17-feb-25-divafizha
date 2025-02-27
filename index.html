@@ -4,79 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Family Fun Trip</title>
+    <title>Travel Beyond</title>
+
+    <!-- CSS Link -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- nav -->
+    <!-- Navigation -->
     <nav>
-        <div class="logo">FamilyFunTrip</div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#packages">Our Package</a></li>
-            <li><a href="#contact">Call Us</a></li>
-        </ul>
+        <div class="logo">Travel Beyond</div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#our-packages">Our Package</a></li>
+                <li><a href="#contact">Call Us</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <!-- nav end -->
+    <!-- Banner Section -->
+    <header id="hero" class="hero">
+        <h1>Travel Beyond Expectations</h1>
+        <h2>Premium travel experiences tailored just for you.</h2>
+        <p>Start your dream journey with our exclusive travel packages. <br>Explore the world without limits, with
+            top-tier
+            comfort and services designed just for you.</p>
+    </header>
 
-    <!-- Home -->
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Unforgettable Family Adventures Await!</h1>
-            <p>Discover the perfect family getaway with our carefully curated travel packages.
-                Stress-free, fun-filled, and designed for all ages!
-            </p>
+    <!-- Our Package Section -->
+    <main id="our-packages" class="our-packages">
+        <div class="our-packages-text">
+            <h3>Our Package</h3>
+            <p>Start your dream journey with our exclusive travel packages. Explore the world without limits, with
+                top-tier
+                comfort and services designed just for you.</p>
         </div>
-    </section>
-    <!-- Home end -->
+        <div class="travel-packages">
+            <div class="package-card">
+                <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/09/c7/d1/d1.jpg" alt="Bali">
+                <h2>Bali Adventure</h2>
+                <p> Experience the beauty of Bali for 5 days with luxury accommodation and private tours. </p>
+            </div>
 
-    <!-- Our Packages -->
-    <div class="packages">
-        <h2>Our Packages</h2>
+            <div class="package-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Jo-beLkgTkCHhO_JBbRj2MnpvzOeKEMLxw&s"
+                    alt="Japan">
+                <h2>Japan Cherry Blossom</h2>
+                <p>Witness the breathtaking cherry blossoms in Japan with an exclusive tour covering Tokyo, Kyoto, and
+                    Osaka.</p>
+            </div>
 
-        <div class="bali">
-            <img src="" alt="">
-            <h2>Bali Family Escape (5D4N)</h2>
-            <p>Experience the ultimate family vacation in Bali with beachside resorts and cultural adventures!</p>
+            <div class="package-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPRMbiTgwSCCvSDt5bwfZlKgHXfmZeIA4EbQ&s"
+                    alt="Swiss">
+                <h2>Swiss Alps Tour</h2>
+                <p>Explore the stunning Swiss Alps with unforgettable skiing and nature experiences.</p>
+            </div>
         </div>
+    </main>
 
-        <div class="disneyland">
-            <img src="" alt="">
-            <h2>Magical Disneyland Tour (4D3N)</h2>
-            <p>Bring your kids' dreams to life with a magical trip to Disneyland!</p>
-        </div>
-
-        <div class="japan">
-            <img src="" alt="">
-            <h2>Road Trip Across Japan (7D6N)</h2>
-            <p>Explore Japan’s beauty with your loved ones – from Tokyo’s city lights to Kyoto’s serene temples!</p>
-        </div>
-
-    </div>
-
-    <!-- Call Us -->
-    <div class="contact">
-        <h2>Contact Us</h2>
+    <!-- Call to Action Section -->
+    <footer id="contact" class="contact">
+        <h2>Ready to Start Your Journey?</h2>
+        <p> Contact us now and get the best package recommendations!</p>
         <form id="contactForm">
-            <label for="name">Your Name:</label>
+            <label for="name">Name:</label>
             <input type="text" id="name" placeholder="First and last name" required>
 
-            <label for="email">Email Address:</label>
+            <label for="email">Email:</label>
             <input type="email" id="email" placeholder="example@email.com" required>
 
             <label for="interest">Travel Destination</label>
-            <input type="text" id="destination" required>
+            <input type="text" id="destination" name="destination" required>
 
             <button type="submit">SEND</button>
         </form>
-    </div>
+        </div>
+    </footer>
 
-
-
-
+    <!-- JavaScript Link -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
