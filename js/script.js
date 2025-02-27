@@ -1,4 +1,3 @@
-
 //AutoSlide Banner
 let slides = document.querySelectorAll(".slide");
 let index = 0;
@@ -12,7 +11,7 @@ function changeSlide() {
 setInterval(changeSlide, 3000); // Ganti slide setiap 3 detik
 
 
-//Validation Form Contact
+//Form Contact Validation 
 document.getElementById("contact-form").addEventListener("submit", function (event) {
     event.preventDefault(); // Mencegah form submit secara default
 

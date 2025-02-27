@@ -202,4 +202,74 @@ nav {
 html {
     scroll-behavior: smooth;
 }
-  
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nav-links ul {
+        flex-direction: row;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .overlay h1 {
+        font-size: 3rem;
+    }
+
+    .overlay h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .travel-packages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .package-card {
+        width: 90%;
+    }
+
+    .overlay h1 {
+        font-size: 2.5rem;
+    }
+
+    .overlay h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        padding: 10px 20px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .overlay h1 {
+        font-size: 2rem;
+    }
+
+    .overlay h2 {
+        font-size: 1rem;
+    }
+
+    .overlay p {
+        font-size: 0.9rem;
+    }
+
+    #contact-form {
+        width: 90%;
+    }
+}
