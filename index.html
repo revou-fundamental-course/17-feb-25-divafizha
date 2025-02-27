@@ -7,7 +7,7 @@
     <title>Travel Beyond</title>
 
     <!-- CSS Link -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body>
@@ -26,11 +26,20 @@
 
     <!-- Banner Section -->
     <header id="home" class="hero">
-        <h1>Travel Beyond Expectations</h1>
-        <h2>Premium travel experiences tailored just for you.</h2>
-        <p>Start your dream journey with our exclusive travel packages. <br>Explore the world without limits, with
-            top-tier
-            comfort and services designed just for you.</p>
+        <div class="slide active" style="background-image: url('asset/bali.jpg');">
+        </div>
+        <div class="slide" style="background-image: url('asset/Singapore.jpg');">
+        </div>
+        <div class="slide" style="background-image: url('asset/ParisDisneyland.webp');">
+        </div>
+        <div class="overlay">
+            <h1>Travel Beyond Expectations</h1>
+            <h2>Premium travel experiences tailored just for you.</h2>
+            <p>Start your dream journey with our exclusive travel packages. <br>Explore the world without limits,
+                with
+                top-tier
+                comfort and services designed just for you.</p>
+        </div>
     </header>
     <!-- Our Package Section -->
     <main id="our-packages" class="our-packages">
@@ -42,32 +51,45 @@
         </div>
         <div class="travel-packages">
             <div class="package-card">
-                <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/09/c7/d1/d1.jpg" alt="Bali">
-                <h2>Bali Adventure</h2>
-                <p> Experience the beauty of Bali for 5 days with luxury accommodation and private tours. </p>
+                <img src="https://i.pinimg.com/736x/3c/97/3d/3c973d3d6ddb1ab640cbf14802cb5bca.jpg" alt="Bali">
+                <h2>Bali Adventure (5D4N)</h2>
+                <p>"Escape to paradise with a luxurious 5-day Bali adventure! Stay in exclusive villas, explore
+                    breathtaking temples, and discover hidden gems with private guided tours. A perfect blend of
+                    relaxation and adventure awaits!"</p>
             </div>
 
             <div class="package-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Jo-beLkgTkCHhO_JBbRj2MnpvzOeKEMLxw&s"
-                    alt="Japan">
-                <h2>Japan Cherry Blossom</h2>
-                <p>Witness the breathtaking cherry blossoms in Japan with an exclusive tour covering Tokyo, Kyoto, and
-                    Osaka.</p>
+                <img src="https://i.pinimg.com/736x/75/e3/1e/75e31e8d0b7d225cdb2161085b99d060.jpg" alt="Japan">
+                <h2>Japan Cherry Blossom (7D6N)</h2>
+                <p>"Witness Japan’s iconic cherry blossoms in full bloom! Explore the vibrant cities of Tokyo, Kyoto,
+                    and Osaka, indulge in authentic Japanese cuisine, and immerse yourself in a rich cultural
+                    experience. A dreamlike journey through Japan’s most enchanting season!"</p>
             </div>
 
             <div class="package-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPRMbiTgwSCCvSDt5bwfZlKgHXfmZeIA4EbQ&s"
-                    alt="Swiss">
-                <h2>Swiss Alps Tour</h2>
-                <p>Explore the stunning Swiss Alps with unforgettable skiing and nature experiences.</p>
+                <img src="https://i.pinimg.com/736x/c7/ef/9b/c7ef9bb1f129d539b30572a7143803d0.jpg" alt="Swiss">
+                <h2>Swiss Alps Tour (6D5N)</h2>
+                <p>"Experience the magic of the Swiss Alps on a thrilling 6-day adventure! Ski down pristine slopes,
+                    hike through breathtaking landscapes, and explore charming villages nestled in the mountains. A
+                    perfect escape for nature lovers and adventure seekers!"</p>
             </div>
+
+            <div class="package-card">
+                <img src="https://i.pinimg.com/736x/4d/9e/f1/4d9ef192c6f7c57ef23f5f9deca2dd88.jpg" alt="Maldives">
+                <h2>Maldives Luxury Escape (5D4N) - NEW!</h2>
+                <p>"Indulge in the ultimate island getaway with a 5-day escape to the Maldives! Stay in stunning
+                    overwater villas, dive into crystal-clear waters, and enjoy private beach dinners under the stars.
+                    Pure luxury, relaxation, and romance in one perfect package!"</p>
+            </div>
+
         </div>
     </main>
 
-    <!-- Call to Action Section -->
+    <!-- Contact Section -->
     <footer id="contact" class="contact">
         <h2>Ready to Start Your Journey?</h2>
         <p> Contact us now and get the best package recommendations!</p>
+
         <form id="contact-form">
             <label for="name">Name:</label>
             <input type="text" id="name" placeholder="First and last name" required>
@@ -81,16 +103,19 @@
             <button type="submit">Submit</button>
         </form>
 
-        <!-- Links & Copyright -->
-        <div>
-            <div class="footer-links">
-                <a href="#">Terms of Service</a>
-                <a href="#">Privacy Policy</a>
-            </div>
-            <p class="copyright">© 2025 Travel Beyond</p>
+        <div class="footer-links">
+            <a href="#">+62 123-456-789 </a><br>
+            <a href="#">travelbeyond@email.com</a><br>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
         </div>
 
+        <p class="copyright">© 2025 - Travel Beyond</p>
+        </div>
     </footer>
+
+    <!-- Links & Copyright -->
+
 
     <!-- JavaScript Link -->
     <script src="js/script.js"></script>
